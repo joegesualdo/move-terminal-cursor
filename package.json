@@ -1,0 +1,23 @@
+{
+  "name": "move-terminal-cursor",
+  "version": "0.0.1",
+  "description": "Move a terminal cursor (right, left, up, dow, etc).",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": "joegesualdo/move-terminal-cursor",
+  "keywords": [
+    "terminal",
+    "cursor",
+    "move"
+  ],
+  "author": {
+    "name": "Joe Gesualdo"
+  },
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "control-sequence-introducer": "0.0.2"
+  }
+}
