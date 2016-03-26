@@ -1,6 +1,6 @@
 {
   "name": "move-terminal-cursor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Move a terminal cursor (right, left, up, down, etc).",
   "main": "index.js",
   "scripts": {

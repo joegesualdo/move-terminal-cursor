@@ -42,14 +42,6 @@ function moveTerminalCursor(type, opts) {
   }
 }
 
-// moveTerminalCursor("toPos", {row: 10, col: 10})
-// moveTerminalCursor("right", {count: 10})
-// moveTerminalCursor("left", {count: 5})
-moveTerminalCursor("upp", {count: 5})
-moveTerminalCursor("toCol", {col: 10})
-moveTerminalCursor("toPos", {row: 10, col: 10})
-console.log("Meow")
-
 // Helper Cursor Functions ===================================================
 // TODO: Extract String functions into seprate modules.
 // Moves the cursor cellNum (default 1) cells in the given direction. If the cursor is already 
