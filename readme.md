@@ -1,5 +1,5 @@
 ## Move Terminal Cursor
-> Move a terminal cursor (right, left, up, dow, etc).
+> Move a terminal cursor (right, left, up, down, etc).
 
 ## Install
 ```
