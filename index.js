@@ -34,6 +34,9 @@ function moveTerminalCursor(type, opts) {
       if (!opts.row || !opts.col) {
         throw new Error("Must provide 'row' and 'col' options for the 'toPos' movement type.");
       }
+      if (opts.row <= 0 || opts.col <= 0) {
+        throw new Error("Must provide value larger than zero for 'row' and 'col' options.");
+      }
       cursorToPosition(opts.col, opts.row)
       break;
     default:
